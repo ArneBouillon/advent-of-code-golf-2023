@@ -1,0 +1,1 @@
+my @a=lines;say sum map {for <one two three four five six seven eight nine>.kv ->$a,$b {s:g/<$b>/{$b~$a+1~$b}/};10*m/\d/+m:g/\d/.tail},@a
