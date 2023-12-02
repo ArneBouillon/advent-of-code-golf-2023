@@ -1,2 +1,1 @@
-say sum Array(lines)>>.&{for '1'..'9' ->$a {$!=$a.uniname.substr(6);s:g:i/<$!>/{$!~$a~$!}/};10*m/\d/+m:g/\d/.tail} # My submission (114)
-# say sum Array(lines)>>.&{for <one two three four five six seven eight nine>.kv ->$a,$b {s:g/<$b>/{$b~$a+1~$b}/};10*m/\d/+m:g/\d/.tail}
+say sum (@ =lines)>>.&{for '1'..'9' ->$a {$!=$a.uniname.substr(6);s:g:i/<$!>/{$!~$a~$!}/};10*m/\d/+m:g/\d/.tail}
