@@ -5,6 +5,6 @@ Current byte counts (Raku):
 | Challenge  | Byte count  |
 |---|---|
 | 1a  | 37  |
-| 1b  | 102  |
+| 1b  | 99  |
 | 2a  | 95  |
 | 2b  | 72  |
