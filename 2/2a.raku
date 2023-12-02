@@ -1,1 +1,1 @@
-say sum lines>>.&{++$*!any map ->$c {m/(<[2..9]>\d|1<{"<[{3+$!++%3}..9]>"}>)\s$c/},<red green blue>}
+say sum lines>>.&{++$*!any <red green blue>>>.&{m/(<[2..9]>\d|1<{"<[{3+$!++%3}..9]>"}>)\s$^a/}}
