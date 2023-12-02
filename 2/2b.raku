@@ -1,0 +1,1 @@
+say sum lines>>.&{[*] <red green blue>>>.&{max m:g/(\d+)\s$^a/>>.&{+.[0]}}}
