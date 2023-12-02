@@ -1,1 +1,1 @@
-say sum (@ =lines)>>.&{for 1..9 {my$b=words(uniname ~$^a)[1];s:g:i/$b/$b$^a$b/};[~] m:g/\d/[0,*-1]}
+say sum (@ =lines)>>.&{for ^10 {my$b=words(uniname ~$^a)[1];s:g:i/$b/$b$^a$b/};[~] m:g/\d/[0,*-1]}
