@@ -1,1 +1,1 @@
-say sum (@ =lines)>>.&{for '1'..'9' ->$a {$!=$a.uniname.substr(6);s:g:i/<$!>/{$!~$a~$!}/};10*m/\d/+m:g/\d/.tail}
+say sum (@ =lines)>>.&{for '1'..'9' {my$b=$^a.uniname.words[1];s:g:i/$b/$b$^a$b/};10*m/\d/+m:g/\d/.tail}
