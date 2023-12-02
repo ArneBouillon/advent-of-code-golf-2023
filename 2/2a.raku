@@ -1,1 +1,1 @@
-say sum lines>>.&{++$!*so!any map ->$i,$c {m/(<[2..9]>\d|1<{"<[{$i+3}..9]>"}>)\s$c/},<red green blue>.kv}
+say sum lines>>.&{++$*!any map ->$c {m/(<[2..9]>\d|1<{"<[{3+$!++%3}..9]>"}>)\s$c/},<red green blue>}
