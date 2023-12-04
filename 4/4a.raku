@@ -1,1 +1,1 @@
-say sum lines>>.&{1+<(m:ov/\s(\d+)\s.*\|.*\s$0(\s|$$)/-1)}
+say sum lines>>.&{1+<m:ov/\s(\d+)\s.*\|.*\s$0(\s|$$)/+>1}
