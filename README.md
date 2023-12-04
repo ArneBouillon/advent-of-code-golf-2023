@@ -8,3 +8,5 @@ Current byte counts (Raku):
 | 1b  | 98  |
 | 2a  | 95  |
 | 2b  | 72  |
+| 4a  | 57  |
+| 4b  | 119 |
