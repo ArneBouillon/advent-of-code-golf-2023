@@ -11,4 +11,4 @@ Current byte counts (Raku):
 | 4a  | 57  |
 | 4b  | 119 |
 | 6a  | 71  |
-| 6b  | 75  |
+| 6b  | 70  |
