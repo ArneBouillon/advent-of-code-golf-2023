@@ -1,1 +1,1 @@
-say [*] map ->[$t,$m]{grep {$_*($t-$_)>$m},^$t},[Z] lines>>.&{m:g/\d+/}
+say [*] map ->$/ {grep {$_*($0-$_)>$1},^$0},[Z] lines>>.&{m:g/\d+/}
