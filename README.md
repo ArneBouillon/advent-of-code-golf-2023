@@ -1,14 +1,11 @@
 # Advent of Code Golf 2023
 
-Current byte counts (Raku):
+Solving [Advent of Code 2023](https://adventofcode.com/2023) in Raku, with as few bytes as possible!
 
-| Challenge  | Byte count  |
-|---|---|
-| 1a  | 37  |
-| 1b  | 98  |
-| 2a  | 95  |
-| 2b  | 72  |
-| 4a  | 57  |
-| 4b  | 115 |
-| 6a  | 67  |
-| 6b  | 67  |
+Current byte counts:
+| Challenge  | Part A | Part B |
+|---|---|---|
+| 1  | 37  | 98  |
+| 2  | 95  | 72  |
+| 4  | 57  | 115 |
+| 6  | 67  | 67  |
